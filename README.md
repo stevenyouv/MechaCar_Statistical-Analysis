@@ -23,8 +23,29 @@ The purpose of this project is to use statistics and hypothesis testing to revie
 - When looking at the entire population of the production lot, the variance of the coils is 62.29 PSI, which is well within the 100 PSI variant requirement.  
 
 - Lots 1 and 2 are significantly more consistent and well within the 100 PSI variance requirement with variances of .98 and 7.47 respectively 
-- 
+
 - Lot 3 shows a much larger variance in performance and consistency with a variance of 170.29 PSI which is well outside the requirement of 100 PSI
+
+## t-Tests on Suspension Coils
+
+### Summary of t-Tests Across All Manufacturing Lots
+
+![image](https://user-images.githubusercontent.com/78937719/122661841-21d50a00-d154-11eb-895d-af535695cf84.png)
+
+- true mean of the sample is 1498.78 and p-Value is 0.06, which is higher than the common significance level of 0.05 so there is not enough evidence to support rejecting the null hypothesis.
+
+### Summary of Lot 1
+![image](https://user-images.githubusercontent.com/78937719/122661844-2d283580-d154-11eb-8b1d-c710c2f454ee.png)
+- the Lot 1 sample has the true sample mean of 1500 with a p-Value of 6.529e-07 so we cannot reject the null hypotehsis that there is no statistical difference between the observed sample mean and the presumed population mean.
+
+### Summary of Lot 2
+![image](https://user-images.githubusercontent.com/78937719/122661851-3a452480-d154-11eb-8884-859b072ac9e9.png)
+- the Lot 2 sample has the true sample mean of 1499.52 with a p-Value of 0.117 so we cannot reject the null hypotehsis that there is no statistical difference between the observed sample mean and the presumed population mean.
+- 
+### Summary of Lot 3
+![image](https://user-images.githubusercontent.com/78937719/122661854-4335f600-d154-11eb-91b6-87c34f7e898f.png)
+- the Lot 3 sample has the true sample mean of 1496.92 with a p-Value of 0.5859 so we cannot reject the null hypotehsis that there is no statistical difference between the observed sample mean and the presumed population mean.
+
 
 
 
